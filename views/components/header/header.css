@@ -12,19 +12,61 @@ a {
 }
 
 a:hover {
-    color: #05f;
+    color: #07f;
 }
 
 .header-wrapper {
     display: flex;
     flex-direction: row;
+    height: 60px;
 }
 
 .header-wrapper > div {
     flex-grow: 1;
-    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.flex-grow-2 {
-    flex-grow: 2;
+.header-wrapper > div p {
+    margin: 0;
 }
+
+.header-wrapper > div .text {
+    margin-left: 0.5em;
+}
+
+.header-wrapper > div a {
+    display: flex;
+    align-items: center;
+    color: #07f;
+    text-transform: uppercase;
+}
+
+.header-wrapper > div a:hover {
+    color: #333;
+}
+
+.header-wrapper > div i {
+    font-size: 40px;
+}
+
+.header-wrapper > .flex-grow-4 {
+    flex-grow: 4;
+}
+
+.header-wrapper > .header-logo{
+    justify-content: start;
+}
+.header-wrapper > .header-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header-desc > .title {
+    font-weight: 700;
+    font-size: large;
+}
+
