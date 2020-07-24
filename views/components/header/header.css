@@ -11,14 +11,12 @@ a {
     display: inline-block;
 }
 
-a:hover {
-    color: #07f;
-}
 
 .header-wrapper {
-    display: flex;
+    display: none;
     flex-direction: row;
     height: 60px;
+    font-size: 0.9rem;
 }
 
 .header-wrapper > div {
@@ -39,20 +37,19 @@ a:hover {
 .header-wrapper > div a {
     display: flex;
     align-items: center;
-    color: #07f;
     text-transform: uppercase;
 }
 
-.header-wrapper > div a:hover {
+.header-wrapper > div i {
+    color: #2879fe;
+}
+
+.header-wrapper > div a:hover i{
     color: #333;
 }
 
 .header-wrapper > div i {
     font-size: 40px;
-}
-
-.header-wrapper > .flex-grow-4 {
-    flex-grow: 4;
 }
 
 .header-wrapper > .header-logo{
