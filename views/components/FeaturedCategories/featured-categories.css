@@ -8,7 +8,7 @@
     font-size: 1.1rem;
 }
 
-.featured-categories > div{
+.featured-categories > {
     display: flex;
 }
 
