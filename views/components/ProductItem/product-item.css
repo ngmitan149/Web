@@ -24,6 +24,8 @@
     min-height: 350px;
     overflow: hidden;
     position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .product-item-wrapper .status {
@@ -48,7 +50,7 @@
 }
 
 .product-item-wrapper .add-wishlist{
-    color: inherit;
+    color: #999;
 }
 
 .product-item-wrapper .add-wishlist:hover{
