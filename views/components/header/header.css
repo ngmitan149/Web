@@ -27,16 +27,28 @@
     text-transform: uppercase;
 }
 
-.header-wrapper > div i {
+.header-wrapper > div .icon {
     color: #2879fe;
 }
 
-.header-wrapper > div a:hover i{
+.header-wrapper > div .icon path {
+    fill: #2879fe;
+}
+
+.header-wrapper > div a:hover {
+    color: inherit;
+}
+
+.header-wrapper > div a:hover .icon{
     color: #333;
 }
 
+.header-wrapper > div a:hover .icon path{
+    fill: #333;
+}
+
 .header-wrapper > div i {
-    font-size: 40px;
+    font-size: 32px;
 }
 
 .header-wrapper > .header-logo{

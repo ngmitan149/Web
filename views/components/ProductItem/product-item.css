@@ -2,7 +2,7 @@
     padding: 0.1em 0.3rem;
     line-height: 1;
     font-weight: 400;
-    border-radius: 6px;
+    border-radius: 3px;
     color: #fff;
 }
 
@@ -30,17 +30,17 @@
 
 .product-item-wrapper .status {
     position: absolute;
-    top: 15px;
-    left: 1.5rem;
+    top: 10px;
+    left: 1rem;
     font-size: 0.7rem;
 }
 
 .product-item-wrapper .add-wishlist {
     position: absolute;
     top: 5px;
-    right: 1.5rem;
-    width: 3rem;
-    height: 3rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
     font-size: 1rem;
     background-color: #fff;
@@ -139,7 +139,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     color: #333;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .product-content-box .title a:hover {
@@ -148,7 +148,7 @@
 }
 
 .product-content-box .price {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #333;
     font-weight: 700;
 }
@@ -173,11 +173,11 @@
 
 .product-content-box .action .add-to-cart {
     opacity: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1;
     font-weight: 400;
     transition: opacity 0.2s linear;
-    padding: 6px 16px 12px;
+    padding: 6px 16px 9px;
     margin-top: 12px;
 }
 
@@ -186,6 +186,6 @@
 }
 
 .product-item-wrapper:hover .product-content .product-content-box {
-    bottom: calc(1.2rem + 24px + 12px); /* expect padding and magrin from .add-to-cart*/
+    bottom: calc(1.2rem + 20px + 12px); /* expect padding and magrin from .add-to-cart*/
 }
 
