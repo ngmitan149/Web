@@ -18,7 +18,6 @@ a:hover {
 .menu-wrapper {
     display: flex;
     flex-direction: column;
-    width: 280px;
 }
 
 .nav-wrapper {
@@ -27,8 +26,6 @@ a:hover {
     border: 1px solid #e7e7e7;
     border-top-width: 0;
     border-radius: 0 0 0.3em 0.3rem;
-    /* overflow: hidden; */
-    padding-top: 0.3rem;
 }
 
 .nav-wrapper .menu-item {
@@ -37,12 +34,12 @@ a:hover {
 }
 
 .nav-wrapper .menu-item:hover .sub-menu-wrapper {
-    opacity: 1;
+    display: block;
     transform: translate(0);
 }
 
 .nav-wrapper > .menu-item > a {
-    padding: 1em 1rem;
+    padding: 0.8rem 1rem;
     flex-grow: 1;
     position: relative;
     display: flex;
@@ -63,12 +60,16 @@ a:hover {
 }
 
 .menu-title {
+    height: 48px;
+    display: flex;
+    align-items: center;
     text-transform: uppercase;
     background-color: #07f;
     color: #fff;
     font-weight: 700;
-    padding: 1em 1rem;
+    padding: 0 1rem;
     border-radius: 0.3em 0.3em 0 0;
+    flex-grow: 1;
 }
 
 .sub-menu-wrapper {
@@ -81,7 +82,9 @@ a:hover {
     margin-left: 0.3rem;
     transform: translate(1.5rem);
     transition: transform 0.2s;
-    opacity: 0;
+    display: none;
+    z-index: 999;
+    background: #fff;
 }
 
 .sub-menu {
