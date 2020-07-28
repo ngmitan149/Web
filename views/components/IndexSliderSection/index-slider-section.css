@@ -74,16 +74,31 @@ a:hover {
     line-height: 2em;
 }
 
+.black-white .overlay a {
+    color: #fff;
+}
+
 .categories-nvarbar .overlay li:hover a {
     border-radius: 6px;
-    background: rgb(255, 255, 255, 0.8);
+    background: rgb(255, 255, 255, 0.9);
     color: #2879fe;
 }
 
 .categories-nvarbar .overlay .active a{
     border-radius: 6px;
-    background: rgb(255, 255, 255, 0.8);
+    background: rgb(255, 255, 255, 0.9);
     color: #2879fe;
+}
+
+.black-white .overlay li:hover a{
+    color: #fff;
+    background: rgba(25, 25, 25, 0.9);
+}
+
+.black-white .overlay .active a{
+    border-radius: 6px;
+    background: rgba(25, 25, 25, 0.9);
+    color: #fff;
 }
 
 .index-slider {
