@@ -1,14 +1,17 @@
-.index-banner-section .index-banner-wrapper {
+.index-banner-wrapper {
   border-radius: 6px;
   overflow: hidden;
   position: relative;
+  width: 100%;
+  height: 100%;
+  color: #333;
 }
 
-.index-banner-section .index-banner-wrapper img{
+.index-banner-wrapper img{
   width: 100%;
 }
 
-.index-banner-section .overlay {
+.index-banner-wrapper .overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -19,7 +22,7 @@
   align-items: center;
 }
 
-.index-banner-section .overlay .box-scale {
+.index-banner-wrapper .overlay .box-scale {
   box-sizing: unset;
   padding: 1.5rem;
   transition: none 0.2s ease-out;
@@ -30,7 +33,7 @@
   min-width: 350px;
 }
 
-.index-banner-section .index-banner-wrapper:hover .box-scale {
+.index-banner-wrapper:hover .box-scale {
   padding: 2rem;
   background: rgb(40, 121, 254, 0.9);
   color: #fff;
@@ -38,9 +41,16 @@
 
 .index-banner-wrapper .caption-t1 {
   font-size: 1rem;
+  color: inherit;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 0.5em;
 }
 
 .index-banner-wrapper .caption-t2 {
   font-size: 1.5rem;
   margin: 0;
+  color: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
 }
