@@ -8,11 +8,11 @@ a:hover {
 }
 
 .index-section {
-    margin-bottom: 2rem;
+    margin-bottom: 50px;
 }
 
 .search-wrapper {
-    margin-bottom: 2rem;
+    margin-bottom: 50px;
 }
 
 .row {
@@ -26,5 +26,5 @@ a:hover {
 }
 
 .index-section-2 {
-    margin-top: 2rem;
+    margin-top: 50px;
 }
