@@ -30,6 +30,10 @@
     background: #2879fe;
 }
 
+.black:hover .overlay {
+    color: #fff;
+}
+
 .featured-categories .banner img {
     width: 100%;
     object-position: 50% 50%;
