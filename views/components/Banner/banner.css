@@ -63,7 +63,7 @@ a:hover {
 }
 
 .caption-t1 {
-    color: #333;
+    color: inherit;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 0.8em;
@@ -71,7 +71,7 @@ a:hover {
 }
 
 .caption-t2 {
-    color: #333;
+    color: inherit;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.2em;
