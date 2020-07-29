@@ -1,0 +1,82 @@
+.footer-wrapper {
+  font-size: 0.8rem;
+}
+
+.footer-wrapper .title{
+ font-size: 1.2rem;
+ text-transform: uppercase;
+ font-weight: 700;
+ margin-bottom: 15px;
+}
+
+.footer-wrapper ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-wrapper ul li {
+  margin-bottom: 7px;
+}
+
+.footer-wrapper .footer-text {
+  color: #888888;
+}
+
+.footer-wrapper a:hover {
+  color: #07f;
+}
+
+.footer-wrapper .footer-email {
+  color: #07f;
+}
+
+.signup-wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin: 7px 0;
+}
+
+.signup-wrapper input {
+  line-height: 1;
+  flex-grow: 4;
+  padding: 10px 15px 10px 12px;
+  border: 1px solid transparent;
+  border-right: 0;
+  border-radius: 6px 0 0 6px;
+}
+
+.signup-wrapper input:focus {
+  border: 1px solid #07f;
+  border-right: 0;
+  outline: none;
+}
+
+.signup-wrapper button {
+  flex-grow: 1;
+  background: #07f;
+  color: #fff;
+  border-radius: 0 6px 6px 0;
+  border: 1px solid #07f;
+  border-left: 0;
+  transition: all 0.2s ease-out;
+}
+
+.signup-wrapper button:hover {
+  background: #191919;
+  border-color: #191919;
+}
+
+.footer-top {
+  background: #f7f8fa;
+}
+
+.footer-bottom{
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom .content {
+   color: #888888;
+}
