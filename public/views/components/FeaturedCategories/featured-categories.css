@@ -37,6 +37,7 @@
 .featured-categories .banner img {
     width: 100%;
     object-position: 50% 50%;
+    height: 100%;
 }
 
 .featured-categories .overlay {

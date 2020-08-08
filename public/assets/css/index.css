@@ -11,8 +11,13 @@ a:hover {
     margin-bottom: 50px;
 }
 
+.search-banner {
+    display: flex;
+    flex-direction: column;
+}
+
 .search-wrapper {
-    margin-bottom: 50px;
+    margin-bottom: auto;
 }
 
 .row {
